@@ -1,0 +1,100 @@
+body{
+    background-color: turquoise;
+
+}
+.logo{
+    position: absolute;
+    float: left;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.div{
+    float: right;
+    margin-top: 250px;
+    width: 50%;
+    margin-right: 150px;
+}
+/* STEVEN */
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+header {
+background: rgb(64, 179, 224);
+box-shadow: 0 5px 10px rgba(0,0,0,.1);
+padding: 0px 10%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+height: 100%;
+box-shadow: 0 4px 2px -2px;
+border: 1px solid;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .navbar ul{ 
+list-style: none;
+}
+
+header .navbar ul li{
+position: relative;
+float: left;
+}
+
+header .navbar ul li a{
+   font-size: 20px;
+   padding: 20px;
+   color: black;
+   display: block;
+}
+
+
+
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #5e6472;
+    display: none;
+}
+
+header .navbar ul li:hover > ul{
+    display: inline-block;
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+}
+
+.tekst{
+    margin-top: 100px;
+    color: black;
+}
+
+#logoT {
+    position: relative;
+    width: 18%;
+    height: auto;
+    float: left;
+    margin-left: -8%;
+}
+
+.een:hover{
+    background: rgb(10, 139, 190);
+    color: #000000;
+}
+
+.twee:hover{
+    background: rgb(10, 139, 190);
+    color: #000000;
+}
